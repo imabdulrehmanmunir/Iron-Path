@@ -225,7 +225,11 @@ export default function LandingPage() {
                 transition={{ duration: 0.3 }}
               >
                 <div className="text-center">
-                  <img src="/developer.png" className='rounded-lg' alt="" />
+                  <img 
+        src="/developer.png" 
+        className="w-full h-full object-cover" // Forces image to fill the w-48 h-48 box
+        alt="Developer Profile" 
+      />
                   
                 </div>
                 
